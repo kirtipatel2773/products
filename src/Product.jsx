@@ -10,7 +10,7 @@ function Product(props) {
 
     }
   return (
-    <div className='grid grid-cols-4 gap-3'>
+    <div className='grid md:grid-cols-4 grid-cols-1 gap-3'>
         { 
         props.productstae.map( products => (
             <div className='w-full border border-2 border-gray-400 rounded-2xl p-3 hover:bg-rose-100'>
